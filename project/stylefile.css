@@ -1,0 +1,11 @@
+
+/*logo*/
+
+div#logo{
+	height: 52.5px;
+}
+
+div#logo img{
+	display: block;
+	margin: auto;
+}
