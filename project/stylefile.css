@@ -2,10 +2,19 @@
 /*logo*/
 
 div#logo{
-	height: 52.5px;
+	display: flex;
 }
 
 div#logo img{
-	display: block;
+	align-self: center;
 	margin: auto;
+	padding: 15px 0 0 0;
+	height: 20px;
+}
+
+/*shorturl*/
+div#shorturl{
+	height: 200px;
+	background-image: url('../Assets/background-home.jpg');
+	background-size: cover;
 }
