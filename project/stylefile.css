@@ -1,20 +1,39 @@
+/*fontes externas*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:700');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+body{
+	width: 100%;
+	margin: 0px;
+}
 
 /*logo*/
 
-div#logo{
-	display: flex;
-}
 
 div#logo img{
-	align-self: center;
-	margin: auto;
-	padding: 15px 0 0 0;
-	height: 20px;
+	display: block;
+	margin: 15px auto -8px auto;
+	height: 25px;
+	width: 100px;
 }
 
 /*shorturl*/
 div#shorturl{
 	height: 200px;
+	width: 100%;
 	background-image: url('../Assets/background-home.jpg');
 	background-size: cover;
+	color: white;
+	text-align: center;
 }
+
+h1#title{
+	font-family: "Roboto Slab";
+}
+
+h2#subtitle{
+	font-family: Roboto;
+	font-weight: 400;
+}
+
